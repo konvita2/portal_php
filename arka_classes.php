@@ -439,7 +439,7 @@ class CArkaConstrWork
                             $curr_time_site = ConvertTimeStamp($curr_time,FULL);                 
                             CIBlockElement::SetPropertyValues($element_id, $iblock_id, $curr_time_site, $stop_code);  
                             CIBlockElement::SetPropertyValues($element_id, $iblock_id, $period, $dur_code);
-                            CIBlockElement::SetPropertyValues($element_id, $iblock_id, $period, $dur_code);
+                            CIBlockElement::SetPropertyValues($element_id, $iblock_id, $qpos, $qpos_code);
                             $res = true;                      
                             break;    
                         }   
